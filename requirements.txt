@@ -1,0 +1,9 @@
+fastapi==0.115.6
+requests==2.32.3  # For HTTP interactions with Kafka REST Proxy
+uvicorn  # ASGI server for FastAPI
+httpx==0.28.1  # For async HTTP client with retry capabilities
+pydantic>=2.10.0
+pydantic_settings>=2.7.1
+psutil==6.1.1  # For system metrics
+prometheus-client  # For metrics endpoint
+cloudpathlib[gs]
