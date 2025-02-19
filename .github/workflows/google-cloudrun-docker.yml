@@ -63,7 +63,7 @@ jobs:
         uses: 'google-github-actions/auth@v2' # google-github-actions/auth@v2
         with:
           workload_identity_provider: '${{ env.WORKLOAD_IDENTITY_PROVIDER }}'
-          service_account: 'githuaction-sa@stable-electron-449714-f7.iam.gserviceaccount.com'
+          service_account: 'github-python-test@stable-electron-449714-f7.iam.gserviceaccount.com'
  
       # BEGIN - Docker auth and build
       #
