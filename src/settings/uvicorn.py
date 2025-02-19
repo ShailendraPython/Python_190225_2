@@ -45,7 +45,7 @@ class UvicornSettings(BaseSettings):
         description="Maximum number of concurrent requests handled by Uvicorn.",
     )
     port: int = Field(
-        default=8182, description="Port number on which the Uvicorn server will listen."
+        default=8080, description="Port number on which the Uvicorn server will listen."
     )
     proxy_headers: bool = Field(
         default=True,
