@@ -36,9 +36,9 @@ on:
  
 env:
   PROJECT_ID: 'stable-electron-449714-f7' # TODO: update to your Google Cloud project ID
-  GAR_NAME: 'shailen-test'
+  GAR_NAME: 'python-test'
   GAR_LOCATION: 'us-central1'
-  SERVICE: 'shailen-test-app' # TODO: update to your service name
+  SERVICE: 'python-test-app' # TODO: update to your service name
   REGION: 'us-central1' # TODO: update to your region  
   WORKLOAD_IDENTITY_PROVIDER: 'projects/1037938832056/locations/global/workloadIdentityPools/github-actions-wif/providers/github' # TODO: update to your workload identity provider
  
